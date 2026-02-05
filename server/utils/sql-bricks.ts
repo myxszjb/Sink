@@ -1,2 +1,3 @@
-// @ts-expect-error todo
-export { default as SqlBricks } from 'mysql-bricks'
+import MySqlBricks from 'mysql-bricks'
+
+export { MySqlBricks as SqlBricks }
